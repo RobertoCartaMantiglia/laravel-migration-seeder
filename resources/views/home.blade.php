@@ -32,6 +32,9 @@
                         <h1 class="display-5 fw-bold">
                             Welcome to Laravel+Bootsrap 5
                         </h1>
+                        <div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
