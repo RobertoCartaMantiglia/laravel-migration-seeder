@@ -28,10 +28,13 @@
                                 <p>
                                     {{$train->azienda}}
                                 </p>                               
-                                <p> partito da: {{$train->stazione_partenza}}
+                                <p> partito da: {{$train->stazione_partenza}} 
+                                    alle ore: {{$train->orario_partenza}}
                                 </p>
                                 <p> diretto a: {{$train->stazione_arrivo}}
+                                    e in arrivo alle ore {{$train->orario_arrivo}}
                                 </p>
+                                
                             </div>
 
                         @endforeach

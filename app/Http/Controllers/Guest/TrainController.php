@@ -12,7 +12,7 @@ class TrainController extends Controller
 
     public function index()
     {
-        $trains = Train::where('azienda', '=', 'trenitalia')->get();
+        $trains = Train::where('orario_partenza', '!=', '2023-02-11 10:36:57')->get();
         dump($trains);
         return view('home', compact('trains'));
     }
