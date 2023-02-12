@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-wrap">
                         @foreach ($trains as $train)
                             <div class="card col-3 p-3">
                                 <h2>Treno N {{$train->codice_treno}}</h2>
